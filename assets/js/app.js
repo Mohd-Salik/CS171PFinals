@@ -53,7 +53,6 @@ function init(){
    );
    scene.add(backgroundBox);
    backgroundBox.position.y = 600;
-   backgroundBox.position.z = 200;
 
    //ring clouds - (quantity, size, radius, spacing, x_fill, y_fill, z_fill, rotation, opacity)
    newCloud(20, 100, 40, 40, 100, 30, -280, 0.4, 0.9);
