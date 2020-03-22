@@ -48,7 +48,7 @@ function init(){
       side: THREE.BackSide
    }));
    let backgroundBox = new THREE.Mesh(
-      new THREE.CubeGeometry( 2500, 1500, 1500 ), 
+      new THREE.CubeGeometry( 3000, 1500, 1500 ), 
       new THREE.MeshFaceMaterial( backgroundMaterialArray )
    );
    scene.add(backgroundBox);
