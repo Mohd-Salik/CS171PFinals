@@ -3,4 +3,4 @@ final requirement in CS-171
 -rotatable 3D scene
 
 WEBSITE PREVIEW:
-https://mohd-salik.github.io/CS171PFinals/
+https://mohd-salik.github.io/Showcase-Webdev-CS171P_Finals/
