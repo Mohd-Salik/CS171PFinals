@@ -116,15 +116,15 @@ function init(){
    }, undefined, function ( error ) {
       console.error( error );
    } );
-   loader.load( 'assets/models/human/scene.gltf', function ( gltf ) {
-      scene.add( gltf.scene );
-      human = gltf.scene;
-      gltf.scene.scale.set(2, 2, 2);
-      gltf.scene.position.set(-52, 34, 554);
-      gltf.scene.rotation.y = 3.38;
-   }, undefined, function ( error ) {
-      console.error( error );
-   } );
+//    loader.load( 'assets/models/human/scene.gltf', function ( gltf ) {
+//       scene.add( gltf.scene );
+//       human = gltf.scene;
+//       gltf.scene.scale.set(2, 2, 2);
+//       gltf.scene.position.set(-52, 34, 554);
+//       gltf.scene.rotation.y = 3.38;
+//    }, undefined, function ( error ) {
+//       console.error( error );
+//    } );
 
    loadLights();
    loadRenderer();
@@ -138,7 +138,7 @@ function animate(){
    cloudParticles.forEach(p => {
       p.rotation.z -=0.006;
    });
-   animateWater();
+//    animateWater();
    composer.render();
    // renderer.render(scene, camera);
    requestAnimationFrame(animate);
